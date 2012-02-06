@@ -1,0 +1,20 @@
+= Bash script for killing non-responding ruby processes
+It helps to kill your ruby/rails/rails console/irb processes by passing port
+
+= Usage
+clone git repository
+cd bash_process_killer
+./bash_process_killer
+
+Script will show you ruby processes with PID and listening port
+= Example:
+Port 3000 - development rails server
+Port 8989 - spork server
+
+= Output:
+Active ruby PIDs with used port:
+ruby      10024 user    5u  IPv4 181918      0t0  TCP *:3000 (LISTEN)
+ruby      12165 user    4u  IPv4 299825      0t0  TCP 127.0.0.1:8989 (LISTEN)
+Type port to kill process:
+
+Just type port to kill process.
