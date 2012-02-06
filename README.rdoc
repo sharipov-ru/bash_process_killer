@@ -2,7 +2,7 @@
 It helps you to kill your ruby/rails/rails console/irb processes by passing port
 
 == Usage
-  clone git git://github.com/sharipov-ru/ESPN.COM-scoreboard-parser.git
+  clone git git://github.com/sharipov-ru/bash_process_killer.git
   cd bash_process_killer
   ./bash_process_killer
 
